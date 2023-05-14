@@ -12,50 +12,71 @@ body {
 
 /* LANDING PAGE */
 
-header {
-    position: relative;
-}
+    /* Navbar */
+    .container-navbar{
+        width: 100%;
+        height: 13.89vh;
+    }
 
-.navbar {
-    padding: 0 7%;
-    position: fixed;
-    border-bottom: 3px solid rgba(0, 0, 0, 0.1);
+    header {
+        position: relative;
+    }
 
-    height: 90px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+    .navbar {
+        padding: 0 7%;
+        position: fixed;
+        border-bottom: 3px solid rgba(0, 0, 0, 0.1);
 
-.logo {
-    display: flex;
-    width: 70px;
-    height: 70px;
-}
+        height: 13.89vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 
-.nav-menu {
-    display: flex;
-    gap: 25px;
+    .logo {
+        display: flex;
+        width: 10.8vh;
+        height: 10.8vh;
+    }
 
-}
+    .nav-menu {
+        display: flex;
+        gap: 25px;
 
-.nav-menu > li {
-    list-style: none;
-}
+    }
 
-.nav-menu > li > a {
-    text-decoration: none;
+    .nav-menu > li {
+        list-style: none;
+    }
 
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 0.938rem;
+    .nav-menu > li > a {
+        text-decoration: none;
 
-    color: #333;
-}
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 0.938rem;
 
-/* RESPONSIVE DESIGN END */
+        color: #333;
+    }
+    /* NAVBAR END */
+
+    /* HERO */
+    .container-home {
+        padding: 0 7%;
+    }
+    .container-home h1 {
+        background-color: antiquewhite;
+    }
+    /* HERO END */
+
+
+
+
+
+/* LANDING PAGE END */
+
 
 
 /* MSDS */
