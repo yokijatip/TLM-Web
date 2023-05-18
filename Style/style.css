@@ -1,3 +1,7 @@
+/* FONT */
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* FONT END */
+
 * {
     padding: 0;
     margin: 0;
@@ -32,6 +36,10 @@ body {
         display: flex;
         align-items: center;
         justify-content: space-between;
+
+        background-color: #fafafa;
+
+        z-index: 9999;
     }
 
     .logo {
@@ -65,10 +73,179 @@ body {
     /* HERO */
     .container-home {
         padding: 0 7%;
+        /* background-color: bisque; */
     }
     .container-home h1 {
-        background-color: antiquewhite;
+        margin: 0 auto;
+        padding-top: 26px;
+        padding-bottom: 26px;
+        text-align: center;
+
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+
+        width: 60%;
+        /* background-color: aliceblue; */
+        
     }
+
+    .container-image {
+        display: flex;
+        /* background-color: burlywood; */
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+
+    }
+
+    .container-image > .image-1{
+        width: 170px;
+        height: 200px;
+        background-image: url(../Content/250x225.jpg);
+        background-size: cover;
+        background-position: -1000px;
+
+        border-radius: 8px;
+        filter: drop-shadow(1px 1px 2px rgba(51, 51, 51, 0.14));
+    }
+
+    .container-image > .image-2{
+        width: 170px;
+        height: 230px;
+        background-image: url(../Content/250x300.jpg);
+        background-size: cover;
+        background-position: 190px;
+
+        border-radius: 8px;
+        filter: drop-shadow(1px 1px 2px rgba(51, 51, 51, 0.14));
+    }
+
+    .container-image > .image-3{
+        width: 170px;
+        height: 260px;
+        background-image: url(../Content/250x450.jpg);
+        background-size: cover;
+        background-position: -150px;
+
+        border-radius: 8px;
+        filter: drop-shadow(1px 1px 2px rgba(51, 51, 51, 0.14));
+    }
+
+    .container-image > .image-4{
+        width: 170px;
+        height: 230px;
+        background-image: url(../Content/250x300\ \(2\).jpg);
+        background-size: cover;
+
+        border-radius: 8px;
+        filter: drop-shadow(1px 1px 2px rgba(51, 51, 51, 0.14));
+    }
+
+    .container-image > .image-5{
+        width: 170px;
+        height: 200px;
+        background-image: url(../Content/250x225\ \(2\).jpg);
+        background-size: cover;
+
+        border-radius: 8px;
+        filter: drop-shadow(1px 1px 2px rgba(51, 51, 51, 0.14));
+    }
+
+    .container-quote-socialmedia{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .container-quote{
+        width: 240px;
+        height: 100px;
+    }
+
+    .container-quote > img {
+        width: 16px;
+        width: 16px;
+    }
+
+    .container-quote > p {
+        padding-top: 10px;
+
+        font-family: 'Montserrat' ,sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12.5px;
+    }
+    
+    .container-quote > h3 {
+        padding-top: 10px;
+
+        font-family: 'Monsieur La Doulaise', serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+    }
+
+    .msds-button{
+        display: block;
+        margin: 0 auto;
+
+        width: 50px;
+        height: 50px;
+
+        background: #FFFFFF;
+        border-radius: 100%;
+
+        border: none;
+
+        box-shadow: 1px 1px 5px 1px rgba(51, 51, 51, 0.07), -1px -1px 4px rgba(51, 51, 51, 0.07);
+    }
+
+    .msds-button > img {
+        width: 16px;
+        height: 17px;
+        margin-top: 2px;
+    }
+
+    .social-media {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        background-color: #fafafa;
+    }
+    .social-media > img {
+        width: 42px;
+        height: 42px;
+    }
+
+    .social-media > p {
+        width: 140px;
+
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 16px;
+
+        color: #333;
+    }
+
+    .social-media > button {
+        background-color: #fafafa;
+        border: 1.5px solid #333;
+
+        width: 42px;
+        height: 42px;
+
+        border-radius: 100%;
+    }
+    .social-media > button > img {
+        margin-top: 2px;
+    }
+
     /* HERO END */
 
 
