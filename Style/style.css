@@ -258,6 +258,14 @@ body {
 
 /* MSDS */
 
+/* Write Code Here */
+
+/* MSDS END */
+
+
+
+/* E-BOOK */
+
 .container-ebook {
     display: flex;
     align-items: center;
@@ -350,14 +358,6 @@ body {
     width: 100%;
     height: 50%;
 }
-
-/* MSDS END */
-
-
-
-/* E-BOOK */
-
-/* write code here */
 
 /* E-BOOK END */
 
