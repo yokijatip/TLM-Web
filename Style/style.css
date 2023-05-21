@@ -258,7 +258,10 @@ body {
 
 /* MSDS */
 
-/* Write Code Here */
+.container-msds {
+    padding: 0 7%;
+    height: 100vh;
+}
 
 /* MSDS END */
 
@@ -365,7 +368,10 @@ body {
 
 /* ACTIVITY */
 
-/* write code here */
+.container-activity {
+    padding: 0 7%;
+    height: 100vh;
+}
 
 /* ACTIVITY END */
 
