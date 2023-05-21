@@ -275,7 +275,6 @@ body {
     justify-content: space-between;
     padding: 0 7%;
     height: 100vh;
-    background-color: aliceblue;
 }
 
 .left-side > .big-text{
@@ -293,6 +292,7 @@ body {
 .big-text > :last-child{
     margin-left: 152px;
 }
+
 .small-text {
     font-family: 'Poppins';
     font-style: normal;
@@ -306,55 +306,74 @@ body {
 }
 
 .small-text > .line {
-    margin-top: 10px;
+    margin-top: 20px;
     width: inherit;
     border-bottom: solid 4px rgba(51, 51, 51, 0.1);
     border-radius: 100%;
 }
 
-.bottom-button:last-child {
-    .button-right {
-        height: 60px;
-        width: 200px;
-        background-color: #132233;
-        border: 2px solid rgb(182, 128, 128);
-        color: #eee;
-        transition: .6s;
-        font-size: 15px;
-        border-radius: 50px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        /* padding: 20px; */
-        overflow: hidden;
-      }
-      
-      .button-right span {
-        transform: translateX(10px);
-        transition: .5s;
-      }
-      
-      .button-right svg {
-        transform: translateX(-300px);
-        transition: .6s;
-        z-index: 3;
-        height: 20px;
-      }
-      
-      .button-right:hover {
-        width: 60px;
-        background-color: rgba(51, 34, 51, 0.815);
-        box-shadow: 20px 20px 96px #bebebe,-20px -20px 96px #ffffff;
-      }
-      
-      .button-right:hover svg {
-        transform: translateX(-5px);
-      }
-      
-      .button-right:hover span {
-        transform: translateY(70px);
-        font-size: .1rem;
-      }
+.bottom-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.bottom-button > .button-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    padding-top: 14px;
+    padding-bottom: 14px;
+
+    width: 45%;
+
+    border-radius: 14px;
+    border: none;
+
+    background: #FFC930;
+
+    filter: drop-shadow(4px 4px 8px rgba(51, 51, 51, 0.1));
+}
+
+.bottom-button > .button-left > img {
+    width: 20px;
+    height: 20px;
+}
+
+.bottom-button > .button-left > p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.875rem;
+}
+
+.bottom-button > .button-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    padding-top: 14px;
+    padding-bottom: 14px;
+
+    width: 45%;
+    border-radius: 14px;
+
+    filter: drop-shadow(4px 4px 8px rgba(51, 51, 51, 0.1));
+    background-color: #fff;
+
+    border:  #333;
+}
+
+.bottom-button > .button-right > p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.875rem;
+
 }
 
 .right-side > img {
