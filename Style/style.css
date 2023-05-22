@@ -55,7 +55,6 @@ header {
 .nav-menu {
     display: flex;
     gap: 25px;
-
 }
 
 .nav-menu>li {
@@ -195,7 +194,7 @@ header {
     font-size: 30px;
 }
 
-.msds-button {
+.msds-home-button {
     display: block;
     margin: 0 auto;
 
@@ -210,15 +209,16 @@ header {
     filter: drop-shadow(4px 4px 8px rgba(51, 51, 51, 0.1));
 }
 
-.msds-button>img {
+.msds-home-button>img {
     width: 16px;
     height: 17px;
-    margin-top: 2px;
+    margin-top: -4px;
 }
 
 .social-media {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 10px;
     background-color: #fafafa;
 }
@@ -256,28 +256,23 @@ header {
 
 /* HERO END */
 
-
-
-
-
 /* LANDING PAGE END */
 
 
 
 /* MSDS */
-
-.msds {
+.container-msds {
     padding: 0 7%;
     margin-top: 10%;
 }
 
 /* hero 1 */
-.msds .row {
+.container-msds .row {
     font-family: 'Montserrat', sans-serif;
     color: #333333;
 }
 
-.msds .row img {
+.container-msds .row img {
     width: 320px;
     height: 410px;
 }
@@ -322,7 +317,7 @@ header {
     height: 450px;
     width: 350px;
     bottom: 100px;
-    left: 103px;
+    left: 20px;
 
 
 
@@ -389,15 +384,14 @@ header {
     font-family: 'Montserrat';
     font-weight: 600;
     border: none;
+    font-size: 0.800rem;
+    box-shadow: 1px 1px 8px 2px rgba(51, 51, 51, 0.1);
 }
 
 .container-hero4 .row .col:nth-child(2) img {
     height: 200px;
     width: 400px;
 }
-
-
-
 .container-hero4 .row .col:nth-child(1) {
     height: 329px !important;
 
@@ -409,12 +403,12 @@ header {
 /* responsive breakpoint */
 
 @media screen and (min-width:1920px) {
-    .msds .row {
+    .container-msds .row {
         gap: 90px !important;
         margin-bottom: 70px;
     }
 
-    .msds .row img {
+    .container-msds .row img {
         width: 390px;
         height: 500px;
     }
