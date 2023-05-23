@@ -3,7 +3,7 @@
 /* FONT END */
 
 html {
-    behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 * {
