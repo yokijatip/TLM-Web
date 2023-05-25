@@ -16,6 +16,7 @@ body {
     height: 500vh;
     position: relative;
     background-color: #fafafa;
+
 }
 
 /* LANDING PAGE */
@@ -32,47 +33,42 @@ header {
 
 .navbar {
     padding: 0 7%;
-    position: fixed;
     border-bottom: 3px solid rgba(0, 0, 0, 0.1);
-
     height: 13.89vh;
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
     background-color: #fafafa;
-
-    z-index: 9999;
-}
-
-.logo {
-    display: flex;
-    width: 10.8vh;
-    height: 10.8vh;
-}
-
-.nav-menu {
-    display: flex;
-    gap: 25px;
-}
-
-.nav-menu>li {
-    list-style: none;
-}
-
-.nav-menu>li>a {
-    text-decoration: none;
-
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 0.938rem;
-
+    z-index: 9999;
     color: #333;
 }
 
-/* NAVBAR END */
+.navbar .navbar-brand img {
+
+    width: 10.8vh;
+    height: 10.8vh;
+}
+
+
+
+.navbar .container .collapse button {
+    background: #1C5F37;
+    border-radius: 15px;
+    width: 120px;
+    height: 50px;
+    color: white;
+    border: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+
+
+}
+
+/* NAVBAR END
 
 /* Landing Page */
 .container-home {
@@ -568,6 +564,8 @@ header {
 }
 
 @media screen and (max-width : 992px) {
+
+
     .container-hero1 .row .col:nth-child(1) {
         margin: auto;
     }
