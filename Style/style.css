@@ -16,7 +16,6 @@ body {
     height: 500vh;
     position: relative;
     background-color: #fafafa;
-
 }
 
 /* LANDING PAGE */
@@ -64,8 +63,6 @@ header {
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
-
-
 }
 
 /* NAVBAR END
@@ -216,7 +213,7 @@ header {
     align-items: center;
     justify-content: center;
     gap: 10px;
-    background-color: #fafafa;
+    background-color: #fff;
 }
 
 .social-media>img {
@@ -230,8 +227,10 @@ header {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 13px;
     line-height: 16px;
+
+    padding-top: 13px;
 
     color: #333;
 }
@@ -247,9 +246,8 @@ header {
 }
 
 .social-media>button>img {
-    margin-top: 2px;
+    margin-top: -2px;
 }
-
 /* HERO END */
 
 /* LANDING PAGE END */
@@ -257,8 +255,6 @@ header {
 
 
 /* MSDS */
-
-
 .msds {
     margin-top: 10%;
     padding: 0 7%;
