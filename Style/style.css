@@ -16,7 +16,6 @@ body {
     height: 500vh;
     position: relative;
     background-color: #fafafa;
-
 }
 
 /* LANDING PAGE */
@@ -43,10 +42,11 @@ header {
     font-size: 0.938rem;
     z-index: 9999;
     color: #333;
+
+    box-shadow: 1px 1px 2px 4px rgba(255, 255, 255, 0.1);
 }
 
 .navbar .navbar-brand img {
-
     width: 10.8vh;
     height: 10.8vh;
 }
@@ -64,10 +64,7 @@ header {
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
-
-
 }
-
 /* NAVBAR END
 
 /* Landing Page */
@@ -209,6 +206,7 @@ header {
     width: 16px;
     height: 17px;
 
+    margin-top: -4px;
 }
 
 .social-media {
@@ -216,7 +214,7 @@ header {
     align-items: center;
     justify-content: center;
     gap: 10px;
-    background-color: #fafafa;
+    background-color: #fff;
 }
 
 .social-media>img {
@@ -230,8 +228,10 @@ header {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 13px;
     line-height: 16px;
+
+    padding-top: 13px;
 
     color: #333;
 }
@@ -247,9 +247,8 @@ header {
 }
 
 .social-media>button>img {
-    margin-top: 2px;
+    margin-top: -2px;
 }
-
 /* HERO END */
 
 /* LANDING PAGE END */
@@ -257,8 +256,6 @@ header {
 
 
 /* MSDS */
-
-
 .msds {
     margin-top: 10%;
     padding: 0 7%;
