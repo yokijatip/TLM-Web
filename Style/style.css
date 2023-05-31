@@ -903,44 +903,45 @@ header {
 .container-activity {
     padding: 0 7%;
     width: 100%;
-    height: 100vh;
 }
 .titlebox{
     display: grid;
     width: 100%;
     max-width: 200vh;
-    height: 200px;    
+    height: max-content;    
     border-radius: 20px;
     grid-template-columns: max-content max-content max-content;
     column-gap: 12%;
     justify-items: center;
-
     background-color: #2C7D4C;}
 #iconlab{
     width: 100%;
     height: 100%;
     max-width: 245px;
     margin-left: 20%;
+    margin-top: -10%;
 
 }
 #inclass{
     color: white;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     font-size: 60px;
     width: 100%;
-    margin-top: 8%;
+    margin: 6% 0;
     height: 136px;
     text-align: center;
 }
 #people{
     width: 100%;
     height: 100%;
-    max-width: 245px;
+    max-width: 13em;
+    margin-top: -10%;
 
 }
 .contanier-page1{
     width: 100%;
-    margin-top: 5%;
+    margin-top: 2%;
     display: grid;
     grid-template-columns: max-content max-content max-content;
     grid-template-areas: 'picture  script vector';
@@ -963,13 +964,16 @@ header {
 }
 #sentri{
     font-size: 30px;
-   font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
    font-weight: 600;
 }
 
 #text1{
-    font-size: 1em;
+    font-size: 15px;
     line-height: 25px;
+    font-weight: 500;
+    font-family: 'Montserrat',sans-serif;
+
 
 }
 .vector1{
@@ -977,8 +981,8 @@ header {
     width: min-content;
 }
 #science-vector{
-    width:10em;
-    margin-top: 180%;
+    width:8em;
+    margin-top: 210%;
     margin-left: -70%;
 }
 .container-page2{
@@ -986,7 +990,7 @@ header {
     margin-top: 5%;
     display: grid;
     grid-template-columns: max-content max-content;
-    column-gap: 2%;
+    column-gap: 3%;
     grid-template-areas: 'script2 pictur2';
     justify-content: center;
 }
@@ -998,23 +1002,31 @@ header {
     max-width: 500px;
     height: 100%;
     max-height: 240px;
-    border-radius: 5px;
+    border-radius: 10px;
+}
+#kapiler{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+   font-weight: 600;
 }
 .script2{
     width: 600px;
     grid-area: script2;
     float: right;
     text-align: right;
-margin: auto;}
+    font-weight: 500;
+    font-size: 15px;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+}
 
 .container-page3{
     width: 100%;
     margin-top: 5%;
     display: grid;
     grid-template-columns: max-content max-content max-content;
-    column-gap: 2%;
+    column-gap: 3%;
     grid-template-areas: 'pictur3  script3  vector3';
-
 }
 .container-picture3{
     grid-area: pictur3;
@@ -1023,6 +1035,10 @@ margin: auto;}
     width: 500px;
     grid-area: script3;
     margin: auto 0;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+
     }
 .pict3{
     width: 350px;
@@ -1031,11 +1047,13 @@ margin: auto;}
     grid-area: vector3;
 }
 #medical-vector{
-    width: 10em;
+    width: 8em;
+    margin-left: -10%;
+    margin-top: 40%;
 }
 #eosinofil{
     font-size: 30px;
-   font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
    font-weight: 600;
 }
 @media screen and (min-width:1900px ){
@@ -1046,7 +1064,7 @@ margin: auto;}
 
     }
     #iconlab{
-        width: 20em;
+        width: 23em;
         margin: 2% 0;
     }
     #inclass{
@@ -1055,7 +1073,7 @@ margin: auto;}
         margin: 9% 0;
     }
     #people{
-        width: 19em;
+        width: 23em;
         margin: 0 0;
      }
      #pict1{
@@ -1065,7 +1083,7 @@ margin: auto;}
      }
      #text1{
         font-size: 1.5em;
-        font-family: 'Montserrat';
+        font-family: 'Montserrat', sans-serif;
         line-height: 35px;
     
     }  
@@ -1076,18 +1094,19 @@ margin: auto;}
     }  
     #kapiler{
    
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-size: 40px;
     margin: 0 0 ;
     font-weight: 600;
 }
     #science-vector{
-        width:15em;
-        margin-left: -60%;
-        margin-top: 90%;
+        width:12em;
+        margin-left: -30%;
+        margin-top: 120%;
 
     }    
-    .vector1{margin-top: 80%;}
+    .vector1{margin-top: 80%;
+    }
     .container-picture2{
         grid-area: pictur2;
     }
@@ -1103,12 +1122,12 @@ margin: auto;}
         grid-area: script2;
         float: right;
         text-align: right;
-    margin: auto;
-font-size: 1.5em;
-font-family: 'Montserrat';
-}
+        margin: auto;
+        font-size: 1.5em;
+        font-family: 'Montserrat', sans-serif;
+    }
 #kapiler{
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
 .pict3{
@@ -1116,8 +1135,9 @@ font-family: 'Montserrat';
 }
 .script3{
     width: 750px;
-    font-size: 1.5em;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.5em
 }
 #medical-vector{
     width: 15em;
@@ -1136,16 +1156,16 @@ font-family: 'Montserrat';
 .script1{
     width: 100%;
     max-width: 600px;
+    font-family: 'Montserrat';
+
 }
 #science-vector{
-    width:15em;
-    margin-top: 100%;
+    width:10em;
+    margin-top: 160%;
+    margin-left: 5%;
 }
 }
 @media screen and (max-width:1200px ){
-
-
-    
     .titlebox{
         column-gap: 4%;
         justify-content: center;
@@ -1229,16 +1249,19 @@ font-family: 'Montserrat';
         grid-area: script2;
         float: right;
         text-align: right;
-    margin: auto;}
+        padding-left: 15px;
+        }
     #kapiler{
         font-size: 30px;
         font-weight: 600;
        font-family: 'Montserrat';
     }
+    
     .script3{
         margin: 0 0;
         width: 380px;
     }
+    .vector3{display: none;}
     }    
 @media screen and (max-width:768px ){
     
@@ -1272,7 +1295,7 @@ font-family: 'Montserrat';
      }
      #iconlab{
          width: 7em;
-         margin: -30% 0;
+         margin: -40% 0;
      }
      #people{display: none;
     }
@@ -1287,6 +1310,7 @@ font-family: 'Montserrat';
     }
     #pict1{
         margin-bottom: 5%;
+        border-radius: 10px;
     }
     .container-page2{
         width: 100%;
@@ -1302,21 +1326,16 @@ font-family: 'Montserrat';
         max-width: 320px;
         height: 100%;
         max-height: 200px;
-        border-radius: 5px;
+        border-radius: 10px;
         margin-bottom: 5%;
     }
     .script2{
         width: 350px;
         grid-area: script2;
     float: none;
-text-align: left;
-font-family: 'Montserrat';
+    text-align: left;
+    padding: 0;
      }   
-    #text1{
-    font-size: 1em;
-    font-family: 'Montserrat';
-    line-height: 25px;
-    }
     .vector1{display: none;}
     .container-page3{
     width: 100%;
@@ -1328,24 +1347,123 @@ font-family: 'Montserrat';
 }
 .pict3{
     margin-bottom: 5%;
+    border-radius: 10px;
+
 }
 .vector3{
     display: none;
-}
-#text3{
-    font-size: 1em;
-    font-family: 'Montserrat';
-    line-height: 25px;
 }
 .script3{
     width: 300px;
     grid-area: script3;
     margin:  0;
+    font-weight: 500;
     }
     }
 
 /*page1*/
 /* ABOUT US */
+
+.container-about{
+    padding: 7%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: max-content max-content;
+    grid-template-areas: 'paragraph picturs';
+
+
+}
+
+.pageleft{
+grid-area: paragraph;
+}
+.pageright{
+    grid-area: picturs;
+    width: max-content;
+}
+#cicrle{
+    margin-bottom:5%;
+}
+#title{
+    font-size: 80px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+
+}
+#tlm{
+    width: 500px;
+    font-size: 30px;
+    font-family: 'Montserrat';
+
+    font-weight: 600;
+}
+.paragraph{
+    width: 700px;
+    font-size: 15px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+
+
+}
+#pict4{
+    width: 400px;
+    margin-top: 32%;
+    border-radius: 10px;
+    margin-left: 5%;
+}
+.container-mobile{display: none;}
+@media screen and (min-width:1900px){
+    .paragraph{
+        width: 1000px;
+        font-size: 1.5em;
+    
+    }
+    #pict4{
+        width: 600px;
+        margin-top: 25%;
+        margin-left: 10%;
+    }
+}
+@media screen and (max-width:992px)
+{
+    .container-about{
+     display: none;
+    }
+  .container-mobile{
+    padding: 7%;
+    display: grid;
+    grid-template-columns: max-content max-content;
+    grid-template-areas: 'top' 'buttom';}
+    #pict4{
+    margin: 5% 0 5% 0;
+}
+.paragraph{font-weight: 500;}
+#title{
+    font-size: 90px;
+}
+}
+
+@media screen and (max-width:576px)
+{
+    .container-about{
+     display: none;
+    }
+  .container-mobile{
+    padding: 7%;
+    display: grid;
+    grid-template-columns: max-content max-content;
+    grid-template-areas: 'top' 'buttom';}
+    #pict4{
+    margin: 5% 0 5% 0;
+    width: 300px;
+}
+#title{
+    font-size: 50px;
+}
+#tlm{width: 350px;
+font-size: 20px;}
+.paragraph{width: 300px;}
+}
 
 /* write code here */
 
