@@ -1092,6 +1092,16 @@ header {
         max-width: 900px;
 
     }  
+    #sentri{
+        font-size: 40px;
+        font-family: 'Montserrat', sans-serif;
+
+    }
+    #eosinofil{
+        font-size: 40px;
+        font-family: 'Montserrat', sans-serif;
+
+    }
     #kapiler{
    
     font-family: 'Montserrat', sans-serif;
@@ -1126,10 +1136,7 @@ header {
         font-size: 1.5em;
         font-family: 'Montserrat', sans-serif;
     }
-#kapiler{
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
-}
+
 .pict3{
     width:100%
 }
@@ -1394,7 +1401,7 @@ grid-area: paragraph;
     width: 500px;
     font-size: 30px;
     font-family: 'Montserrat';
-
+    margin-bottom: 2%;
     font-weight: 600;
 }
 .paragraph{
@@ -1416,6 +1423,7 @@ grid-area: paragraph;
     .paragraph{
         width: 1000px;
         font-size: 1.5em;
+
     
     }
     #pict4{
@@ -1464,7 +1472,5 @@ grid-area: paragraph;
 font-size: 20px;}
 .paragraph{width: 300px;}
 }
-
-/* write code here */
 
 /* ABOUT US END */
