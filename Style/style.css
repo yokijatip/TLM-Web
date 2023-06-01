@@ -394,6 +394,7 @@ header {
     font-family: 'Montserrat';
     font-weight: 600;
     border: none;
+    font-size: 13px;
 }
 
 .container-hero4 .row .col:nth-child(2) img {
@@ -764,9 +765,6 @@ header {
 
     }
 }
-
-
-
 /* MSDS END */
 
 
