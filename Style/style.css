@@ -52,7 +52,6 @@ header {
 }
 
 
-
 .navbar .container .collapse button {
     background: #1C5F37;
     border-radius: 15px;
@@ -1377,46 +1376,40 @@ header {
     display: grid;
     grid-template-columns: max-content max-content;
     grid-template-areas: 'paragraph picturs';
-
-
 }
 
 .pageleft{
-grid-area: paragraph;
+    grid-area: paragraph;
 }
 .pageright{
     grid-area: picturs;
     width: max-content;
 }
-#cicrle{
-    margin-bottom:5%;
-}
 #title{
-    font-size: 80px;
+    font-size: 70px;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-
 }
 #tlm{
     width: 500px;
     font-size: 30px;
     font-family: 'Montserrat';
-    margin-bottom: 2%;
+    margin-bottom: 4%;
     font-weight: 600;
 }
 .paragraph{
-    width: 700px;
+    width: 600px;
     font-size: 15px;
     font-family: 'Montserrat';
     font-weight: 500;
-
-
+    text-align: justify;
 }
 #pict4{
-    width: 400px;
-    margin-top: 32%;
+    width: 440px;
+    margin-top: 47%;
     border-radius: 10px;
-    margin-left: 5%;
+    margin-left: 10%;
+    filter: drop-shadow(1px 1px 2px rgba(51, 51, 51, 0.14));
 }
 .container-mobile{display: none;}
 @media screen and (min-width:1900px){
