@@ -64,6 +64,27 @@ header {
     font-weight: 600;
     font-size: 15px;
 }
+
+.nav-link {
+    position: relative;
+}
+
+.nav-link::after {
+    content: '';
+    opacity: 0;
+    transition: all 0.4s;
+    height: 4px;
+    width: 100%;
+    background: #1C5F37;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 20px;
+}
+
+.nav-link:hover::after{
+    opacity: 1;
+}
 /* NAVBAR END
 
 /* Landing Page */
@@ -900,6 +921,7 @@ header {
 
 .container-activity {
     padding: 0 7%;
+    padding-top: 10%;
     width: 100%;
     margin-top: 20px;
 }
@@ -1368,10 +1390,13 @@ header {
     }
 
 /*page1*/
+
+
 /* ABOUT US */
 
 .container-about{
     padding: 7%;
+    padding-top: 10%;
     width: 100%;
     display: grid;
     grid-template-columns: max-content max-content;
