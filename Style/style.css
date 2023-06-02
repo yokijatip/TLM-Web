@@ -266,6 +266,11 @@ header {
     border-radius: 100%;
 }
 
+.social-media>button:hover{
+    transition: all 0.5s;
+    background-color: #FFC930;
+}
+
 .social-media>button>img {
     margin-top: -2px;
 }
