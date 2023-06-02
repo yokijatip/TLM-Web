@@ -901,6 +901,7 @@ header {
 .container-activity {
     padding: 0 7%;
     width: 100%;
+    margin-top: 20px;
 }
 .titlebox{
     display: grid;
@@ -963,7 +964,7 @@ header {
 #sentri{
     font-size: 30px;
     font-family: 'Montserrat', sans-serif;
-   font-weight: 600;
+    font-weight: 700;
 }
 
 #text1{
@@ -1005,7 +1006,7 @@ header {
 #kapiler{
     font-size: 30px;
     font-family: 'Montserrat', sans-serif;
-   font-weight: 600;
+   font-weight: 700;
 }
 .script2{
     width: 600px;
@@ -1052,7 +1053,7 @@ header {
 #eosinofil{
     font-size: 30px;
     font-family: 'Montserrat', sans-serif;
-   font-weight: 600;
+    font-weight: 700;
 }
 @media screen and (min-width:1900px ){
     .titlebox{
