@@ -91,6 +91,7 @@ header {
 /* Landing Page */
 .container-home {
     padding: 0 7%;
+
     /* background-color: bisque; */
 }
 
@@ -382,6 +383,7 @@ header {
 .msds {
     margin-top: 10%;
     padding: 0 7%;
+
 }
 
 /* hero 1 */
@@ -1015,6 +1017,7 @@ header {
 .right-side>img {
     width: 100%;
     height: 50%;
+
 }
 
 /* responsive breakpoint ebook */
@@ -1083,7 +1086,6 @@ header {
 
 @media screen and (max-width:576px) {
     .container-ebook {
-        display: flex;
         gap: 90px;
         height: 670px;
     }
