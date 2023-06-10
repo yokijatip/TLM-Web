@@ -1291,7 +1291,7 @@ header {
     font-weight: 700;
     font-size: 60px;
     width: 100%;
-    margin: 6% 0;
+    margin: 4% 0;
     height: 136px;
     text-align: center;
 }
@@ -1495,7 +1495,7 @@ header {
     #inclass {
         font-size: 4em;
         width: max-content;
-        margin: 9% 0;
+        margin: 6% 0;
     }
 
     #people {
