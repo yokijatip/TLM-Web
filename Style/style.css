@@ -1349,6 +1349,7 @@ header {
 .vector1 {
     grid-area: vector;
     width: min-content;
+    display: none;
 }
 
 #science-vector {
@@ -1425,6 +1426,7 @@ header {
 
 .vector3 {
     grid-area: vector3;
+    display: none;
 }
 
 #medical-vector {
