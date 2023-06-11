@@ -33,7 +33,7 @@ header {
 .navbar {
     padding: 0 7%;
     border-bottom: 3px solid rgba(0, 0, 0, 0.1);
-    height: 13.89vh;
+    height: 12vh;
     width: 100%;
     background-color: #fafafa;
     font-family: 'Montserrat';
@@ -291,6 +291,10 @@ header {
     .container-home-image>.image-5 {
         display: none;
     }
+    .container > .navbar-brand > img {
+        width: 70%;
+        height: 70%;
+    }
 
     .container-home h1 {
         margin: 0 auto;
@@ -344,6 +348,10 @@ header {
     .container-quote {
         display: none;
     }
+    .container > .navbar-brand > img {
+        width: 70%;
+        height: 70%;
+    }
 
 
 
@@ -364,6 +372,10 @@ header {
         line-height: 29px;
 
 
+    }
+    .container > .navbar-brand > img {
+        width: 70%;
+        height: 70%;
     }
 }
 
