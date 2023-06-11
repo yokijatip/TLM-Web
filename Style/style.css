@@ -1134,6 +1134,7 @@ header {
     .left-side {
         display: grid;
         justify-content: center;
+        padding: 0 7%;
     }
 }
 
@@ -1161,7 +1162,7 @@ header {
     }
 
     .big-text> :nth-child(1) {
-        margin-left: 20px;
+        margin-left: 0px;
     }
 
     .big-text> :nth-child(2) {
