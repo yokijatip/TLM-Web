@@ -295,6 +295,9 @@ header {
         width: 70%;
         height: 70%;
     }
+    .social-media {
+        margin: auto;
+    }
 
     .container-home h1 {
         margin: 0 auto;
@@ -352,7 +355,9 @@ header {
         width: 70%;
         height: 70%;
     }
-
+    .social-media {
+        margin: auto;
+    }
 
 
 }
@@ -376,6 +381,9 @@ header {
     .container > .navbar-brand > img {
         width: 70%;
         height: 70%;
+    }
+    .social-media {
+        margin: auto;
     }
 }
 
